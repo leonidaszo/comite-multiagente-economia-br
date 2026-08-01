@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/30610270/README.md)
 # 🏛️ Comitê Multiagente: Debate Estrutural da Economia Brasileira
 
-Sistema que utiliza Inteligência Artificial como motor de raciocínio crítico em cadeia para simular um comitê de política econômica. O pipeline analisa dados macroeconômicos reais do Brasil — usando potências globais apenas como contexto exógeno — para produzir recomendações de política pública viáveis, tanto tecnicamente quanto politicamente.
+Sistema que utiliza Inteligência Artificial como motor de raciocínio crítico em cadeia para simular um comitê de política econômica. O pipeline analisa dados macroeconômicos reais do Brasil usando potências globais apenas como contexto exógeno para produzir recomendações de política pública viáveis, tanto tecnicamente quanto politicamente.
 
 > 🔰 **Este é o v1 do projeto — publicado deliberadamente simples.** O plano de evolução está documentado abaixo, no Roadmap. Ideias e sugestões são bem-vindas.
 
@@ -9,7 +9,7 @@ Sistema que utiliza Inteligência Artificial como motor de raciocínio crítico 
 
 ## 🎯 O Problema
 
-Ferramentas de IA generativa costumam responder perguntas econômicas com um único ponto de vista — geralmente o mais "tecnicamente correto", mas alheio à viabilidade política e social de aplicá-lo. Um economista ortodoxo sozinho recomendaria corte de gastos; sem um contraponto institucional, essa recomendação nunca sobreviveria ao Congresso.
+Ferramentas de IA generativa costumam responder perguntas econômicas com um único ponto de vista geralmente o mais "tecnicamente correto", mas alheio à viabilidade política e social de aplicá-lo. Um economista ortodoxo sozinho recomendaria corte de gastos; sem um contraponto institucional, essa recomendação nunca sobreviveria ao Congresso.
 
 Este projeto testa uma hipótese: **um debate estruturado entre agentes de IA com personas e temperaturas diferentes produz uma recomendação final mais equilibrada do que uma única chamada de modelo.**
 
@@ -70,7 +70,7 @@ O fluxo integra Engenharia de Dados (ETL), Análise Exploratória e orquestraç�
 
 ## 🗺️ Roadmap
 
-O plano de evolução deste projeto é público e intencional — cada versão será documentada em um novo post.
+O plano de evolução deste projeto é público e intencional cada versão será documentada em um novo post.
 
 | Versão | Status | O que inclui |
 |---|---|---|
@@ -81,9 +81,9 @@ O plano de evolução deste projeto é público e intencional — cada versão s
 
 ## 🔭 Próximos Passos
 
-Esta é a v1, publicada deliberadamente simples — o começo de um projeto, não o teto dele.
+Esta é a v1, publicada deliberadamente simples o começo de um projeto, não o teto dele.
 
-O próximo passo (v2) é expandir os dados — Câmbio, Desemprego, Selic e Dívida Pública/PIB — e testar a robustez do sistema: plantar de propósito um dado incoerente na tabela e medir se o Revisor Crítico percebe a inconsistência. Depois disso, o plano fica mais ambicioso: um agente de Red Team que tenta derrubar a decisão final do Ministro (v3), e um teste de estresse de persona, para ver se o modelo mantém a racionalidade de Estado sob pressão política ou cede à corrupção (v4).
+O próximo passo (v2) é expandir os dados Câmbio, Desemprego, Selic e Dívida Pública/PIB e testar a robustez do sistema: plantar de propósito um dado incoerente na tabela e medir se o Revisor Crítico percebe a inconsistência. Depois disso, o plano fica mais ambicioso: um agente de Red Team que tenta derrubar a decisão final do Ministro (v3), e um teste de estresse de persona, para ver se o modelo mantém a racionalidade de Estado sob pressão política ou cede à corrupção (v4).
 
 Esse projeto está sendo construído em público, um passo de cada vez. Sugestões, críticas e ideias são muito bem-vindas.
 
