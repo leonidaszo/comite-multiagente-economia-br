@@ -3,7 +3,7 @@
 
 Sistema que utiliza Inteligência Artificial como motor de raciocínio crítico em cadeia para simular um comitê de política econômica. O pipeline analisa dados macroeconômicos reais do Brasil usando potências globais apenas como contexto exógeno para produzir recomendações de política pública viáveis, tanto tecnicamente quanto politicamente.
 
-> 🔰 **Este é o v1 do projeto — publicado deliberadamente simples.** O plano de evolução está documentado abaixo, no Roadmap. Ideias e sugestões são bem-vindas.
+> 🔰 **Este é o v1 do projeto  publicado deliberadamente simples.** O plano de evolução está documentado abaixo, no Roadmap. Ideias e sugestões são bem-vindas.
 
 ---
 
@@ -77,7 +77,7 @@ O plano de evolução deste projeto é público e intencional cada versão será
 | **v1** | ✅ Este repositório | 3 agentes em cadeia (Economista → Crítico → Ministro), dados de PIB e Inflação (Brasil, EUA, China), relatório final + histórico de execuções |
 | **v2** | 🔜 Próximo post | Novos dados via Banco Mundial e Banco Central (Câmbio, Desemprego, Selic, Dívida Pública/PIB) e um teste de robustez: injetar um dado incoerente na tabela e medir se o Revisor Crítico detecta a inconsistência |
 | **v3** | 🔭 Pesquisa futura | Agente extra de Red Team (tenta derrubar a decisão final), backtesting histórico (comparar recomendação passada com o que realmente aconteceu) e um score de consenso entre os agentes, plotável ao longo do tempo |
-| **v4** | ⚖️ Teste de Integridade | **Estresse de persona (economia comportamental):** injetar no prompt do Ministro dilemas éticos, pressão de reeleição ou crises financeiras pessoais fictícias, e medir o quanto a decisão final se desvia da recomendação racional-base — um teste de o agente manter a racionalidade de Estado ou ceder à corrupção |
+| **v4** | ⚖️ Teste de Integridade | **Estresse de persona (economia comportamental):** injetar no prompt do Ministro dilemas éticos, pressão de reeleição ou crises financeiras pessoais fictícias, e medir o quanto a decisão final se desvia da recomendação racional-base, um teste de o agente manter a racionalidade de Estado ou ceder à corrupção |
 
 ## 🔭 Próximos Passos
 
