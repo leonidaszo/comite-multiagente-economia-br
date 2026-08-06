@@ -74,7 +74,7 @@ O plano de evolução deste projeto é público e intencional cada versão será
 
 | Versão | Status | O que inclui |
 |---|---|---|
-| **v1** | ✅ Este repositório | 3 agentes em cadeia (Economista → Crítico → Ministro), dados de PIB e Inflação (Brasil, EUA, China), relatório final + histórico de execuções |
+| **v1** | ✅ Repositório atual | 3 agentes em cadeia (Economista → Crítico → Ministro), dados de PIB e Inflação (Brasil, EUA, China), relatório final + histórico de execuções |
 | **v2** | 🔜 Próximo post | Novos dados via Banco Mundial e Banco Central (Câmbio, Desemprego, Selic, Dívida Pública/PIB) e um teste de robustez: injetar um dado incoerente na tabela e medir se o Revisor Crítico detecta a inconsistência |
 | **v3** | 🔭 Pesquisa futura | Agente extra de Red Team (tenta derrubar a decisão final), backtesting histórico (comparar recomendação passada com o que realmente aconteceu) e um score de consenso entre os agentes, plotável ao longo do tempo |
 | **v4** | ⚖️ Teste de Integridade | **Estresse de persona (economia comportamental):** injetar no prompt do Ministro dilemas éticos, pressão de reeleição ou crises financeiras pessoais fictícias, e medir o quanto a decisão final se desvia da recomendação racional-base, um teste de o agente manter a racionalidade de Estado ou ceder à corrupção |
