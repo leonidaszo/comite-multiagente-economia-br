@@ -45,7 +45,7 @@ O fluxo integra Engenharia de Dados (ETL), Análise Exploratória e orquestraç�
 ## 🧠 Decisões de Engenharia
 
 - **Temperature calibrada por papel, não fixa no pipeline inteiro.** O Economista Chefe roda em `0.3` (rigor analítico), o Revisor Crítico em `0.4` (mais liberdade para contra-argumentar) e o Ministro em `0.2` (decisão final precisa ser estável e determinística, não "criativa").
-- **Chamadas stateless entre agentes.** Cada agente recebe apenas o texto de saída do anterior via prompt — não há histórico de conversa acumulado — o que torna cada etapa auditável e substituível isoladamente.
+- **Chamadas stateless entre agentes.** Cada agente recebe apenas o texto de saída do anterior via prompt e não há histórico de conversa acumulado, o que torna cada etapa auditável e substituível isoladamente.
 - **Separação entre lógica de dados e lógica de exibição.** `rodar_pipeline_multiagente()` devolve um dicionário puro (`economista`, `critico`, `sintese`); a formatação em Markdown para exibição é uma camada à parte, facilitando reaproveitar o pipeline em outro contexto (script `.py`, API, dashboard).
 - **Migração de SDK em produção.** O projeto começou com `google-generativeai` (deprecado) e foi migrado para o novo `google-genai`, atualizando também o modelo para `gemini-3.5-flash`.
 - **Histórico versionado, não só o último resultado.** Cada execução salva `.md` (leitura humana) e `.json` (metadados + reprocessamento programático), permitindo montar um gráfico comparando o "tamanho argumentativo" de cada agente ao longo de múltiplas execuções.
