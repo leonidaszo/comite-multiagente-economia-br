@@ -3,8 +3,6 @@
 
 Sistema que utiliza Inteligência Artificial como motor de raciocínio crítico em cadeia para simular um comitê de política econômica. O pipeline analisa dados macroeconômicos reais do Brasil usando potências globais apenas como contexto exógeno para produzir recomendações de política pública viáveis, tanto tecnicamente quanto politicamente.
 
-> 🔰 **Este é o v1 do projeto  publicado deliberadamente simples.** O plano de evolução está documentado abaixo, no Roadmap. Ideias e sugestões são bem-vindas.
-
 ---
 
 ## 🎯 O Problema
