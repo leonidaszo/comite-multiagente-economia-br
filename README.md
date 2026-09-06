@@ -79,9 +79,9 @@ O plano de evolução deste projeto é público e intencional cada versão será
 
 ## 🔭 Próximos Passos
 
-Esta é a v1, publicada deliberadamente simples o começo de um projeto, não o teto dele.
+Esta é a v1, publicada deliberadamente simples o começo de um projeto, não o teto dele ✅
 
-O próximo passo (v2) é expandir os dados Câmbio, Desemprego, Selic e Dívida Pública/PIB e testar a robustez do sistema: plantar de propósito um dado incoerente na tabela e medir se o Revisor Crítico percebe a inconsistência. Depois disso, o plano fica mais ambicioso: um agente de Red Team que tenta derrubar a decisão final do Ministro (v3), e um teste de estresse de persona, para ver se o modelo mantém a racionalidade de Estado sob pressão política ou cede à corrupção (v4).
+O próximo passo (v2) é expandir os dados Câmbio, Desemprego, Selic e Dívida Pública/PIB e testar a robustez do sistema: plantar de propósito um dado incoerente na tabela e medir se o Revisor Crítico percebe a inconsistência ✅/ Depois disso, o plano fica mais ambicioso: um agente de Red Team que tenta derrubar a decisão final do Ministro (v3), e um teste de estresse de persona, para ver se o modelo mantém a racionalidade de Estado sob pressão política ou cede à corrupção (v4).
 
 Esse projeto está sendo construído em público, um passo de cada vez. Sugestões, críticas e ideias são muito bem-vindas.
 
